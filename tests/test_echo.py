@@ -6,4 +6,4 @@ class TestEcho(unittest.TestCase):
     
     def testHi(self):
         d = echo("hello world\n")
-        self.failUnlessEqual("hello world\n", d.hi())
+        self.assertEqual("hello world\n", d.hi())
