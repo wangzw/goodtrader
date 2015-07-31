@@ -15,7 +15,7 @@ setup(
     long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),
     install_requires=['docopt>=0.6.1', 'coverage>=3.6'],
     tests_require=['pytest'],
-    test_suite="tests.test_echo",
+    test_suite="tests",
     classifiers=[
         'Development Status :: 1 - Planning',
         'Topic :: Office/Business :: Financial :: Investment',
