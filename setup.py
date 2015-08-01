@@ -5,15 +5,16 @@ from setuptools import setup, find_packages
 setup(
     name='trade',
     version='0.1',
-    package_dir={'':'src'},
+    package_dir={'': 'src'},
     packages=find_packages("src"),
     url='https://github.com/wangzw/trade',
     license='MIT',
     author='Zhanwei Wang',
     author_email='wangzw@wangzw.org',
     description='Just for fun',
-    long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),
-    install_requires=['docopt>=0.6.1', 'coverage>=3.6'],
+    long_description=open('README.md').read() +
+    '\n\n' + open('CHANGELOG.md').read(),
+    install_requires=['docopt>=0.6.1', 'coverage>=3.6', 'pandas>=0.16'],
     tests_require=['pytest'],
     test_suite="tests",
     classifiers=[
