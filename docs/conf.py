@@ -16,6 +16,15 @@ import sys
 import os
 import shlex
 
+# Project root directory
+root = os.path.abspath('../')
+
+# Project source directory
+src = "src"
+
+# Add source directory into python path
+sys.path.append(root + os.path.sep + src)
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
