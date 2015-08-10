@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # GoodTrader documentation build configuration file, created by
-# sphinx-quickstart on Sat Aug  8 22:03:26 2015.
+# sphinx-quickstart on Mon Aug 10 09:11:41 2015.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -30,7 +30,9 @@ import shlex
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.pngmath',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

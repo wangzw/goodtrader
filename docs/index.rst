@@ -1,5 +1,5 @@
 .. GoodTrader documentation master file, created by
-   sphinx-quickstart on Sat Aug  8 22:03:26 2015.
+   sphinx-quickstart on Mon Aug 10 09:11:41 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
