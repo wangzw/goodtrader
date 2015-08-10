@@ -1,5 +1,5 @@
 # -*- coding: utf8 -*-
-from trade.data.stock import Stock
+from goodtrader.data.stock import Stock
 import unittest
 
 
