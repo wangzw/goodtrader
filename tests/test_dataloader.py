@@ -1,4 +1,5 @@
 # -*- coding: utf8 -*-
+
 from goodtrader.data.dataloader import DataLoader
 import unittest
 

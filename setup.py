@@ -14,7 +14,8 @@ setup(
     description='Just for fun',
     long_description=open('README.md').read() +
     '\n\n' + open('CHANGELOG.md').read(),
-    install_requires=['docopt>=0.6.1', 'coverage>=3.6', 'pandas>=0.16', 'pulsar>=1.0.3'],
+    install_requires=['docopt>=0.6.1', 'coverage>=3.6', 'pandas>=0.16',
+                      'tushare>=0.36', 'SQLAlchemy>=1.0.8', 'PyYAML>=3.11', 'pulsar>=1.0.3'],
     tests_require=['pytest'],
     test_suite="tests",
     classifiers=[
@@ -24,10 +25,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Programming Language :: Python :: Implementation :: CPython',
